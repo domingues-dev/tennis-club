@@ -76,6 +76,42 @@ h1{
 
 /* summary */
 
+.summary{
+    width: 1000px;
+    padding-top: 50px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+h2{
+    margin: auto;
+    color: darkslategrey;
+}
+
+.photos-summary{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.photo-container{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.photo-container img{
+    height: 200px;
+    width: 200px;
+}
+.photo-container span{
+    padding: 10px;
+    color: darkslategrey;
+    font-weight: bold;
+}
+
 /* footer */
 footer{
     position: fixed;
